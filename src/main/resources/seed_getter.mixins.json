@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.smelly.seedgetter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "seed_getter.refmap.json",
+  "client": [
+    "ClientPlayNetHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

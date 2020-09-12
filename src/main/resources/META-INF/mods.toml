@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+issueTrackerURL="https://github.com/SmellyModder/Seed-Getter/issues"
+license="https://github.com/SmellyModder/Seed-Getter/blob/master/LICENSE.txt"
+
+[[mods]]
+    modId="seed_getter"
+    version="1.0.0"
+    displayName="Seed Getter"
+    authors="SmellyModder (Luke Tonon)"
+    description='''A client-side mod that adds a new command to get the seed of any world.'''
+
+[[dependencies.seed_getter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32.0.72,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.seed_getter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1,]"
+    ordering="NONE"
+    side="BOTH"
